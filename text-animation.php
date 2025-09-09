@@ -1,11 +1,11 @@
 <div class="infinite-marquee">
     <div class="marquee-content">
-        <label class="custom-moveing" style="color:#fff; font-weight: 400; font-size:20px;">
+        <label class="custom-moveing" style="color:#fff; font-weight: 700; font-size:24px;">
            + ******  "Code Cracking Chaos" Ben, TripAdvisor + ******  "Brilliant Fun for all the Family" Mark, Google Review + ****** "Great host & Fab Experience" Rebecca, TripAdvisor + ***** "Brilliant introduction to Escape Rooms!" Russ, Facebook 
         </label>
     </div>
     <div class="marquee-content" aria-hidden="true">
-        <label style="color:#fff; font-weight: 400; font-size:20px;">
+        <label style="color:#fff; font-weight: 700; font-size:24px;">
             + ******  "Code Cracking Chaos" Ben, TripAdvisor + ******  "Brilliant Fun for all the Family" Mark, Google Review + ****** "Great host & Fab Experience" Rebecca, TripAdvisor + ***** "Brilliant introduction to Escape Rooms!" Russ, Facebook 
         </label>
     </div>
@@ -13,7 +13,7 @@
 
 <style>
 .custom-moving {
-    font-family: "Aktiv Grotesk W04 Black" !important;
+    font-family: Helvetica, sans-serif, !important;
 }
 .infinite-marquee {
     width: 100%;
@@ -31,7 +31,7 @@
 }
 
 .marquee-content label {
-    font-family: 'Aktiv Grotesk W04 Black' !important;
+    font-family: Helvetica, sans-serif, !important;
     display: inline-block;
     padding-right: 50px; /* Adjust spacing between items */
 }
