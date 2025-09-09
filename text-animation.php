@@ -13,7 +13,7 @@
 
 <style>
 .custom-moving {
-    font-family: "Poppin", sans-serif !important;
+    font-family: "Aktiv Grotesk W04 Black" !important;
 }
 .infinite-marquee {
     width: 100%;
@@ -31,7 +31,7 @@
 }
 
 .marquee-content label {
-    font-family: 'Futura PT Medium';
+    font-family: 'Aktiv Grotesk W04 Black' !important;
     display: inline-block;
     padding-right: 50px; /* Adjust spacing between items */
 }
