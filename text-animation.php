@@ -1,12 +1,12 @@
 <div class="infinite-marquee">
     <div class="marquee-content">
         <label class="custom-moveing" style="color:#fff; font-weight: 700; font-size:24px;">
-           + ******  "Code Cracking Chaos" Ben, TripAdvisor + ******  "Brilliant Fun for all the Family" Mark, Google Review + ****** "Great host & Fab Experience" Rebecca, TripAdvisor + ***** "Brilliant introduction to Escape Rooms!" Russ, Facebook 
+           + ***** ‘Proper gameshow atmosphere, funny host and lots of laughs‘ Ian, TripAdvisor + ****** ‘Excellent Experience’ Jason, TripAdvisor + ***** ‘A night of entertainment!’ James, TripAdvisor 
         </label>
     </div>
     <div class="marquee-content" aria-hidden="true">
-        <label style="color:#fff; font-weight: 700; font-size:24px;">
-            + ******  "Code Cracking Chaos" Ben, TripAdvisor + ******  "Brilliant Fun for all the Family" Mark, Google Review + ****** "Great host & Fab Experience" Rebecca, TripAdvisor + ***** "Brilliant introduction to Escape Rooms!" Russ, Facebook 
+        <label style="color:#fff; font-weight: 700; font-size:24px; line-height: 40px;">
+            + ***** ‘Proper gameshow atmosphere, funny host and lots of laughs‘ Ian, TripAdvisor + ****** ‘Excellent Experience’ Jason, TripAdvisor + ***** ‘A night of entertainment!’ James, TripAdvisor
         </label>
     </div>
 </div>
@@ -14,6 +14,7 @@
 <style>
 .custom-moving {
     font-family: Helvetica, sans-serif, !important;
+    line-height: 40px;
 }
 .infinite-marquee {
     width: 100%;
