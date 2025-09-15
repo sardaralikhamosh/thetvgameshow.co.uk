@@ -57,10 +57,14 @@
 
 /* ✅ Submenus stay directly under parent (not affecting top spacing) */
 .elementor-nav-menu--dropdown .sub-menu {
-    display: none;
+   display: none; /* hide by default, Elementor will add "elementor-sub-item" toggle */
+    position: static !important;
     flex-direction: column;
     margin-top: 10px;
     text-align: center;
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0;
 }
 
 .elementor-nav-menu--dropdown li.menu-item-has-children.open > .sub-menu {
@@ -83,6 +87,7 @@
 .elementor-nav-menu--dropdown .sub-menu li a {
     font-size: 1.3rem;
     color: #333;
+    padding: 8px 0;
 }
 
 .elementor-nav-menu--dropdown .sub-menu li a:hover {
